@@ -24,8 +24,8 @@ public class TestCase06 {
         WebElement errorMessage= driver.findElement(By.xpath("//small[@data-bv-result=\"INVALID\"]"));
         String expectedResult = "The username must be more than 6 and less than 30 characters long";
          String actualResult=errorMessage.getText();
-        Assert.assertEquals(expectedResult,actualResult);
-
+Assert.assertEquals(expectedResult,actualResult,"title is wrong");
+driver.close();
 
     }
 }
