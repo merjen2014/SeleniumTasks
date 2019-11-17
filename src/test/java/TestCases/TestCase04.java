@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utils2.BrowserFactory;
-import utils2.BrowserUtilsTime;
+import utils2.BrowserUtils;
 
 /*
 Test case #4 Step 1. Go to https://practice-cybertekschool.herokuapp.comStep
@@ -21,7 +21,7 @@ public class TestCase04 {
         RegForm.click();
 WebElement firstName= driver.findElement(By.name("firstname"));
 firstName.sendKeys("123");
-        BrowserUtilsTime.wait(3);
+        BrowserUtils.wait(3);
 WebElement errorMes = driver.findElement(By.xpath("//*[@id=\"registrationForm\"]/div[1]/div/small[3]"));
         String expectedResult ="first name can only consist of alphabetical letters";
         String actualResult = errorMes.getText();
