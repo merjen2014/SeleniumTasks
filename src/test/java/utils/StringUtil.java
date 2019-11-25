@@ -1,4 +1,4 @@
-package utils2;
+package utils;
 
 public class StringUtil {
     public static void VerifyEquals(String expected, String actual){

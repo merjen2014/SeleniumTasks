@@ -1,7 +1,7 @@
 package com.cbt;
 
 import org.openqa.selenium.WebDriver;
-import utils2.BrowserFactory;
+import utils.BrowserFactory;
 
 public class NavigationTests {
     public static void main(String[] args) {

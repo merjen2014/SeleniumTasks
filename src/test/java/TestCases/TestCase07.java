@@ -3,8 +3,8 @@ package TestCases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utils2.BrowserFactory;
-import utils2.BrowserUtils;
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 /*
 Step 1. Go to https://practice-cybertekschool.herokuapp.com

@@ -1,15 +1,13 @@
 package TestCases;
-import utils2.BrowserFactory;
-import utils2.StringUtil;
+import utils.BrowserFactory;
+import utils.StringUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 public class TestCase03 {
     public static void main(String[] args) {
         chromeTest();
         fireFoxTest();
-        //edgeTest();
     }
-
     public static void chromeTest(){
         WebDriver driver = BrowserFactory.getDriver("chrome");
         driver.get("https://practice-cybertekschool.herokuapp.com");

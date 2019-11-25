@@ -2,8 +2,8 @@ package TestCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils2.BrowserFactory;
-import utils2.StringUtil;
+import utils.BrowserFactory;
+import utils.StringUtil;
 
 public class TestCase02 {
     public static void main(String[] args) {

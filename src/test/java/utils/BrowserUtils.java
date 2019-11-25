@@ -1,4 +1,4 @@
-package utils2;
+package utils;
 
 public class BrowserUtils {
     //It will be used to pause our test execution

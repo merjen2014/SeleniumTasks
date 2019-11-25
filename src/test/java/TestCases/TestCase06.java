@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import utils2.BrowserFactory;
-import utils2.BrowserUtils;
+import utils.BrowserFactory;
+import utils.BrowserUtils;
 
 //Test case #6 Step 1. Go to https://practice-cybertekschool.herokuapp.com
 // 2. Click on “Registration Form”Step
